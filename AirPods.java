@@ -1,3 +1,10 @@
+/**
+ * Wenn du keine AirPods hast hast du keine AirPods
+ * 
+ * @author Cornelius (mit Katja) 
+ * @version 1.1
+ */
+
 public class AirPods  implements Audio
 {
     String version;
