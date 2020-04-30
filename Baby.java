@@ -14,6 +14,10 @@ public class Baby implements Audio
     {
         alterinMonaten = alterNeu;
         aufregungsstufe = aufregungNeu;
+         if(aufregungsstufe>=3)
+        {
+            weinen();
+        }
     }
 
     public void setAufregungsstufe(int aufregungsstufe) {
