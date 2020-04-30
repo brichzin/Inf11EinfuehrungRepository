@@ -14,7 +14,12 @@ public abstract class Baby implements Audio
     {
         alterinMonaten = alterNeu;
         aufregungsstufe = aufregungNeu;
+        if(aufregungsstufe<=3)
+        {
+            weinen();
+        }
     }
+    
     public String weinen() 
     {
          return "Waaaahhhhh";
