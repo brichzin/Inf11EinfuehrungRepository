@@ -2,7 +2,7 @@
 /**
  * Beschreiben Sie hier die Klasse Pferd.
  * 
- * @author (Ihr Name) 
+ * @author (Ben und Baran) 
  * @version (eine Versionsnummer oder ein Datum)
  */
 public class Pferd implements Audio
