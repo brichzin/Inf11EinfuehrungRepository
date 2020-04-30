@@ -12,12 +12,18 @@ public class Hund implements Audio
     {
         return gewicht;
     }
-    
+    public void GewichtSetzen(int gewichtNeu)
+    {
+          gewicht = gewichtNeu;
+    }
     public int AlterGeben()
     {
         return alter;
     }
-    
+    public void AlterSetzen(int alterNeu)
+    {
+       alter = alterNeu; 
+    }
     
     public String lautGeben() {
         return "Wuff";
