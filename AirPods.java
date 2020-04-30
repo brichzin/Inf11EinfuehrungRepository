@@ -8,16 +8,28 @@
 public class AirPods  implements Audio
 {
     String version;
-    int lautstärke;
+    int lautstaerkeNeu;
     int akku;
         
-    AirPods (String versionNeu, int lautstärkeNeu, int akkuNeu)
+    AirPods (String versionNeu, int lautstaerkeNeu, int akkuNeu)
     {
         version = versionNeu;
-        lautstärke = lautstärkeNeu;
+        lautstaerkeNeu= lautstaerkeNeu;
         akku = akkuNeu;
     }
-    
+
+    public boolean AKKUALARM() {
+        return akku <= 10;
+    }
+
+    public void AUFDREHEN() {
+        lautstaerkeNeu = 100;
+    }
+
+    public void ENERGIE_GEBEN() {
+        akku = 100;
+    }
+
     public String lautGeben() {
         return "lelele";
     }
