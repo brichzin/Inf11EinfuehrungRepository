@@ -8,6 +8,10 @@ public class Hund implements Audio
         gewicht = gewichtNeu;
         alter = alterNeu;
     }
+    public void GewichtSetzen(int gewichtNeu)
+    {
+      gewicht = gewichtNeu;   
+    }
     public int GewichtGeben()
     {
         return gewicht;
