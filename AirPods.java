@@ -14,7 +14,7 @@ public class AirPods  implements Audio
     AirPods (String versionNeu, int lautstaerkeNeu, int akkuNeu)
     {
         version = versionNeu;
-        lautstaerkeNeu= lautstaerkeNeu;
+        this.lautstaerkeNeu = lautstaerkeNeu;
         akku = akkuNeu;
     }
 

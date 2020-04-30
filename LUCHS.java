@@ -36,4 +36,13 @@ public class LUCHS implements Audio
     public String lautGeben() {
         return "au";
     }
+    
+    public void längeSetzen(int längeNeu)
+    {
+        // tragen Sie hier den Code ein
+        länge = längeNeu;
+    }
+    
+    
+    
 }
