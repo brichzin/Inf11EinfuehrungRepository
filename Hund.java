@@ -22,6 +22,10 @@ public class Hund implements Audio
         return alter;
     }
     
+    public void AlterSetzen (int alterNeu)
+    {
+         alter = alterNeu;
+    }
 
     public boolean sollteGestorbenSein() {
         return alter > 30;
