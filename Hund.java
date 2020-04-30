@@ -24,7 +24,11 @@ public class Hund implements Audio
     {
        alter = alterNeu; 
     }
-    
+
+    public boolean sollteGestorbenSein() {
+        return alter > 30;
+    }
+
     public String lautGeben() {
         return "Wuff";
     }
