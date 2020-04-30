@@ -14,7 +14,7 @@ public abstract class Baby implements Audio
     {
         alterinMonaten = alterNeu;
         aufregungsstufe = aufregungNeu;
-        if(aufregungsstufe<=3)
+        if(aufregungsstufe>=3)
         {
             weinen();
         }
