@@ -19,6 +19,11 @@ public class KATZE implements Audio
       return gewicht;   
     }
     
+    public void GewichtSetzen(int gewichtNeu)
+    {
+      gewicht = gewichtNeu;   
+    }
+    
     public String lautGeben() {
         return "Miauuuu";
     }
