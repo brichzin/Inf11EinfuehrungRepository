@@ -13,7 +13,10 @@ public class KATZE implements Audio
     {
       return alter;
     }
-    
+    public void AlterSetzen(int alterNeu)
+    {
+     alter = alterNeu;   
+    }
     public int GewichtGeben ()
     {
       return gewicht;   
