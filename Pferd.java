@@ -40,6 +40,16 @@ public class Pferd implements Audio
     {
         return "Welchen Laut geben Pferde?";
     }
+    
+    public void AlterSetzen(int neuesAlter)
+    {
+        alter = neuesAlter;
+    }
+    
+    public void NameSetzen(String neuerName)
+    {
+        Name = neuerName;
+    }
 
     
 }
