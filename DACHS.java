@@ -1,11 +1,10 @@
 
 /**
- * Beschreiben Sie hier die Klasse AAL.
- * 
- * @author (Ihr Name) 
- * @version (eine Versionsnummer oder ein Datum)
+  
+ * @author (Maxi, Yannick) 
+ * @version (5.5.2020)
  */
-public  class DACHS implements  Audio
+public  class DACHS implements Audio
 {
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
     int alter;
