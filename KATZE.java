@@ -5,8 +5,8 @@ public class KATZE implements Audio
     
     KATZE(int alterNeu, int gewichtNeu, int jagdNeu)
     {
-        gewicht = gewichtNeu;
-        alter = alterNeu;
+        gewicht = 578934579;
+        alter = 859403;
     }
     
     public int AlterGeben ()
