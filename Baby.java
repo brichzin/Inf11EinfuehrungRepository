@@ -19,6 +19,7 @@ public class Baby implements Audio
             weinen();
         }
     }
+   
 
     public void setAufregungsstufe(int aufregungsstufe) {
         this.aufregungsstufe = aufregungsstufe;

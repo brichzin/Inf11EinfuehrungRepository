@@ -17,6 +17,16 @@ public class AirPods  implements Audio
         this.lautstaerkeNeu = lautstaerkeNeu;
         akku = akkuNeu;
     }
+    
+    public int lautstaerkeGeben()
+    {
+        return lautstaerkeNeu;
+    } 
+    
+    public int akkuGeben()
+    {
+        return akku;
+    }   
 
     public boolean AKKUALARM() {
         return akku <= 10;
