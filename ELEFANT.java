@@ -10,7 +10,7 @@ public class ELEFANT
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
      int alter;
      int gewicht;
-
+     
     /**
      * Konstruktor für Objekte der Klasse Elefant
      */
@@ -20,7 +20,6 @@ public class ELEFANT
        gewicht= 200;
        alter = alterNeu;
        gewicht = gewichtNeu;
-   
     } 
     public String lautGeben()
     {
