@@ -14,9 +14,13 @@ public class LUCHS implements Audio
     /**
      * Konstruktor für Objekte der Klasse LUCHS
      */
+
     public LUCHS(int gewichtNeu, int längeNeu)
+
     {
         // Instanzvariable initialisieren
+
+      
         gewicht = gewichtNeu;
         länge = längeNeu;
         
