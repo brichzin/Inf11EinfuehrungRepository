@@ -19,6 +19,8 @@ public class LUCHS implements Audio
         // Instanzvariable initialisieren
         alter = alterNeu;
         länge = längeNeu;
+        alter = 30;
+        
     }
 
     /**
