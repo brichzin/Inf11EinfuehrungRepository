@@ -19,6 +19,9 @@ public class LUCHS implements Audio
         // Instanzvariable initialisieren
         gewicht = gewichtNeu;
         länge = längeNeu;
+        
+        gewicht = 500;
+        länge= 314;
     }
 
     /**
