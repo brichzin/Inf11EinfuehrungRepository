@@ -48,4 +48,14 @@ public class Baby implements Audio
             return weinen();
         }
     }
+    
+    public int AlterGeben()
+    {
+    return alterinMonaten;
+    }
+    
+    public int AufregungGeben()
+    {
+    return aufregungsstufe;
+    }
 }
