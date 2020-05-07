@@ -6,7 +6,7 @@
  */
 public class Baby implements Audio
 {
-    
+
     int alterinMonaten;
     int aufregungsstufe;
 
@@ -14,12 +14,13 @@ public class Baby implements Audio
     {
         alterinMonaten = alterNeu;
         aufregungsstufe = aufregungNeu;
-         if(aufregungsstufe>=3)
+        alterinMonaten = 218;
+        aufregungsstufe = 187;
+        if(aufregungsstufe>=3)
         {
             weinen();
         }
     }
-   
 
     public void setAufregungsstufe(int aufregungsstufe) {
         this.aufregungsstufe = aufregungsstufe;
@@ -27,7 +28,7 @@ public class Baby implements Audio
 
     public String weinen()
     {
-         return "Waaaahhhhh";
+        return "Waaaahhhhh";
     }
 
     public String essen() {
@@ -48,14 +49,14 @@ public class Baby implements Audio
             return weinen();
         }
     }
-    
+
     public int AlterGeben()
     {
-    return alterinMonaten;
+        return alterinMonaten;
     }
-    
+
     public int AufregungGeben()
     {
-    return aufregungsstufe;
+        return aufregungsstufe;
     }
 }
