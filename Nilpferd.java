@@ -8,16 +8,16 @@
 public class Nilpferd
 
 {
-    // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
-    private int x;
+    int gewicht;
+    int hunger;
 
     /**
      * Konstruktor für Objekte der Klasse Nilpferd
      */
-    public Nilpferd()
+    public Nilpferd(int gewichtNeu, int hungerNeu)
     {
-        // Instanzvariable initialisieren
-        x = 0;
+        gewicht = gewichtNeu;
+        hunger = hungerNeu;
     }
 
     /**
@@ -26,9 +26,18 @@ public class Nilpferd
      * @param  y    ein Beispielparameter für eine Methode
      * @return        die Summe aus x und y
      */
-    public int beispielMethode(int y)
+    public String lautGeben()
     {
-        // tragen Sie hier den Code ein
-        return x + y;
+        return "brüll";
+    }
+    
+    public int gewichtGeben()
+    {
+        return gewicht;
+    }
+    
+    public int hungerGeben()
+    {
+        return hunger;
     }
 }
