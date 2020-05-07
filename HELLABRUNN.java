@@ -9,13 +9,12 @@ public class HELLABRUNN
 {
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
     private int x;
-    int alter;
     /**
      * Konstruktor für Objekte der Klasse HELLABRUNN
      */
-    public HELLABRUNN(int alterNeu)
+    public HELLABRUNN()
     {
-        alter = alterNeu;// Instanzvariable initialisieren
+        // Instanzvariable initialisieren
         x = 0;
     }
 
