@@ -26,11 +26,19 @@ public  class DACHS implements Audio
    int gewichtGeben()
      {
          return gewicht;
-        }
-    public String lautGeben()
-   {
-       return "Knorrrr";
+     }
+   public void alterSetzen(int alterNeu)
+     {
+     alter = alterNeu;  
+     }
+   public void gewichtSetzen(int gewichtNeu)
+     {
+        gewicht = gewichtNeu; 
+     }
+   public String lautGeben()
+     {
+       return "Knorrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr";
        
-    }
+     }
     
 }
