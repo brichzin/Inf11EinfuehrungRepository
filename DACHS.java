@@ -27,11 +27,11 @@ public  class DACHS implements Audio
      {
          return gewicht;
      }
-   public void alterSetzen(int alterNeu)
+   public void AlterSetzen(int alterNeu)
      {
      alter = alterNeu;  
      }
-   public void gewichtSetzen(int gewichtNeu)
+   public void GewichtSetzen(int gewichtNeu)
      {
         gewicht = gewichtNeu; 
      }
