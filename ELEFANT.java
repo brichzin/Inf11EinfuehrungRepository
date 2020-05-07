@@ -16,8 +16,10 @@ public class ELEFANT
      */
     public ELEFANT (int alterNeu, int gewichtNeu )
     {
-       alter = 187;
-       gewicht = 69;
+       alter= 200;
+       gewicht= 200;
+       alter = alterNeu;
+       gewicht = gewichtNeu;
     } 
     public String lautGeben()
     {
