@@ -18,9 +18,9 @@ public class AirPods  implements Audio
         version = versionNeu;
         this.lautstaerkeNeu = lautstaerkeNeu;
         akku = akkuNeu;
-        version = "Pro";
-        akku = 100;
-        lautstaerkeNeu = 33;
+        version = "17";
+        akku = 69;
+        this.lautstaerkeNeu = 66;
     }
     
     public int lautstaerkeGeben()
