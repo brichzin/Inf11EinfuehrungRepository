@@ -10,6 +10,7 @@ public class KATZE implements Audio
         alter = alterNeu;
         
         
+
     }
     
     public int AlterGeben ()
