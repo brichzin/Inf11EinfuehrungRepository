@@ -16,8 +16,8 @@ public class ELEFANT
      */
     public ELEFANT (int alterNeu, int gewichtNeu )
     {
-       alter= 200;
-       gewicht= 200;
+       alter= 187;
+       gewicht= 69;
        alter = alterNeu;
        gewicht = gewichtNeu;
     } 
