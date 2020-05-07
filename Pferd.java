@@ -22,8 +22,8 @@ public class Pferd implements Audio
     
     public Pferd()
     {
-        alter = 9999;
-        Name = "Pferdinand";
+        alter = 0;
+        Name = "Hahaha";
     }
     
     public int GetAlter()
