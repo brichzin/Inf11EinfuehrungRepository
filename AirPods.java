@@ -1,3 +1,10 @@
+/**
+ * Wenn du keine AirPods hast hast du keine AirPods
+ * 
+ * @author Cornelius (mit Katja) 
+ * @version 1.1
+ */
+
 public class AirPods  implements Audio
 {
     String version;
@@ -7,7 +14,7 @@ public class AirPods  implements Audio
     AirPods (String versionNeu, int lautstaerkeNeu, int akkuNeu)
     {
         version = versionNeu;
-        lautstaerkeNeu= lautstaerkeNeu;
+        this.lautstaerkeNeu = lautstaerkeNeu;
         akku = akkuNeu;
     }
 
