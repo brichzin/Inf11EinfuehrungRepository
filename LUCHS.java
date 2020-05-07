@@ -8,17 +8,17 @@
 public class LUCHS implements Audio
 {
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
-    int gewicht;
+    int alter;
     int länge;
 
     /**
      * Konstruktor für Objekte der Klasse LUCHS
      */
-    public LUCHS(int gewichtNeu, int alterNeu)
+    public LUCHS(int längeNeu, int alterNeu)
     {
         // Instanzvariable initialisieren
-        gewicht = gewichtNeu;
-        länge = alterNeu;
+        alter = alterNeu;
+        länge = längeNeu;
     }
 
     /**
