@@ -23,7 +23,7 @@ public class ELEFANT
     } 
     public String lautGeben()
     {
-        return "T謗种种种种种种种";
+        return "T諶RRRRRRRRRRRRR种种种种种种种HHHHHHHHHH";
     }
     int alterGeben()
     {
