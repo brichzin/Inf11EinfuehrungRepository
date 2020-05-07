@@ -16,6 +16,12 @@ public class Zoo
     KATZE katze;
     Wildes_Monster_richy monster;
     
+    Pferd pferd;
+    ROTERPANDA roterPanda;
+    DACHS dachs;
+    //ELEFANT elefant;
+    
+    
     /**
      * Konstruktor für Objekte der Klasse Zoo
      */
@@ -29,7 +35,11 @@ public class Zoo
         katze= new KATZE(1,1,1);
         monster= new Wildes_Monster_richy();
         
-        tiere =new Audio[7];
+        pferd=new Pferd(1,"ferdinand");
+        roterPanda=new ROTERPANDA(1,1);
+        dachs=new DACHS(1,1);
+        
+        tiere =new Audio[10];
       tiere[0]=airpods;
       tiere[1]=baby;
       tiere[2]=luchs;
@@ -37,6 +47,9 @@ public class Zoo
       tiere[4]=hund;
       tiere[5]=katze;
       tiere[6]=monster;
+      tiere[7]=pferd;
+      tiere[8]=roterPanda;
+      tiere[9]=dachs;
     }
 
     /**
