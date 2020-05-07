@@ -4,7 +4,7 @@
  * @author (Katerina Musienko & Cornelius Stadler)
  * @version (30.4.20)
  */
-public abstract class Baby implements Audio
+public class Baby implements Audio
 {
     
     int alterinMonaten;
@@ -14,9 +14,37 @@ public abstract class Baby implements Audio
     {
         alterinMonaten = alterNeu;
         aufregungsstufe = aufregungNeu;
+         if(aufregungsstufe>=3)
+        {
+            weinen();
+        }
     }
-    public String weinen() 
+
+    public void setAufregungsstufe(int aufregungsstufe) {
+        this.aufregungsstufe = aufregungsstufe;
+    }
+
+    public String weinen()
     {
          return "Waaaahhhhh";
+    }
+
+    public String essen() {
+        return "Mampf";
+    }
+
+    public String schlafen() {
+        return "Chrrrrrr";
+    }
+
+    @Override
+    public String lautGeben() {
+        if(aufregungsstufe == 1) {
+            return schlafen();
+        } else if(aufregungsstufe == 2) {
+            return essen();
+        } else {
+            return weinen();
+        }
     }
 }
