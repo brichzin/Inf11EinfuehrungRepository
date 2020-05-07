@@ -1,6 +1,8 @@
 /**
  * Wenn du keine AirPods hast hast du keine AirPods
  * 
+ * welcher hund hat an den airpods rumgebastelt?
+ * 
  * @author Cornelius (mit Katja) 
  * @version 1.1
  */
@@ -17,6 +19,16 @@ public class AirPods  implements Audio
         this.lautstaerkeNeu = lautstaerkeNeu;
         akku = akkuNeu;
     }
+    
+    public int lautstaerkeGeben()
+    {
+        return lautstaerkeNeu;
+    } 
+    
+    public int akkuGeben()
+    {
+        return akku;
+    }   
 
     public boolean AKKUALARM() {
         return akku <= 10;

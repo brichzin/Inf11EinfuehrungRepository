@@ -19,6 +19,7 @@ public class Baby implements Audio
             weinen();
         }
     }
+   
 
     public void setAufregungsstufe(int aufregungsstufe) {
         this.aufregungsstufe = aufregungsstufe;
@@ -46,5 +47,15 @@ public class Baby implements Audio
         } else {
             return weinen();
         }
+    }
+    
+    public int AlterGeben()
+    {
+    return alterinMonaten;
+    }
+    
+    public int AufregungGeben()
+    {
+    return aufregungsstufe;
     }
 }
