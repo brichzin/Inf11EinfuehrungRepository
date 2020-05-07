@@ -24,6 +24,9 @@ public class Pferd implements Audio
     {
         alter = 0;
         Name = "Hahaha";
+        
+        alter = 15;
+        Name = "";
     }
     
     public int GetAlter()
