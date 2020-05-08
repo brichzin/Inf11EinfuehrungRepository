@@ -32,7 +32,7 @@ public class Zoo
         luchs= new LUCHS(1,1);
         loewe= new LOEWE(1,1);
         hund= new Hund(1,1);
-        katze= new KATZE(1,1,1);
+        katze= new KATZE(1,1);
         monster= new Wildes_Monster_richy();
         
         pferd=new Pferd(1,"ferdinand");
