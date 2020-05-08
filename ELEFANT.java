@@ -5,7 +5,7 @@
  * @author (Ihr Name) 
  * @version (eine Versionsnummer oder ein Datum)
  */
-public class ELEFANT
+public class ELEFANT implements Audio
 {
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
      int alter;
@@ -16,8 +16,8 @@ public class ELEFANT
      */
     public ELEFANT (int alterNeu, int gewichtNeu )
     {
-       alter= 187;
-       gewicht= 69;
+       alter= 200;
+       gewicht= 100;
        alter = alterNeu;
        gewicht = gewichtNeu;
     } 
